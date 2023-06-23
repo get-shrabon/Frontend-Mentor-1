@@ -1,0 +1,174 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@import url(https://fonts.google.com/specimen/Bai+Jamjuree);
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.banner {
+    text-align: center;
+    position: relative;
+    top: -200px;
+}
+
+.banner p {
+    opacity: .8;
+}
+
+.primary-btn {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(45, 227, 166);
+    color: white;
+    border-radius: 10px;
+    border: 1px solid rgb(31, 234, 167);
+    cursor: pointer;
+    transition-duration: .5s;
+    margin-top: 20px;
+    
+}
+.primary-btn:hover{
+    box-shadow: 2px 2px 2px 2px  rgb(31, 234, 167);
+    font-weight: 600;
+}
+
+.secondary-btn {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(161, 44, 210);
+    color: white;
+    border-radius: 10px;
+    border: 1px solid rgb(161, 44, 210);
+    cursor: pointer;
+    transition-duration: .3s;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+.secondary-btn:hover{
+    box-shadow: 2px 2px 2px 2px  rgb(161, 44, 210);
+    font-weight: 600;
+}
+
+.header-subtitle{
+    margin-top: 150px;
+}
+.container-1{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.container-1 p{
+    opacity: .8;
+}
+.second{
+    padding-top: 20px;
+}
+.third{
+    padding-top: 20px;
+}
+@media screen and (max-width:576px) {
+    .container-1{
+        display: flex;
+       flex-direction: column;
+    
+    } 
+    .container-1 img{
+        width: 350px;
+    }
+    .container-2 img{
+        width: 250px;
+    }
+    .main-logo{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .col-1{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.container-2{
+    text-align: center;
+    margin-top: 50px;
+}
+.container-2 p{
+    opacity: .8;
+    padding-bottom: 20px;
+}
+.container-3{
+    text-align: center;
+}
+.container-3 h1{
+    font-size: 30px;
+}
+.container-3 p{
+    opacity: .8;
+}
+.container-3-des{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.main-logo{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.container-4{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.container-4 p{
+    opacity: .8;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: gainsboro;
+    padding: 30px;
+    width: auto;
+}
+.col-1{
+    display: flex;
+    gap: 40px;
+
+}
+.footer-ancor{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+    transition-duration: .4s;
+}
+footer a:hover{
+color: rgb(45, 227, 166);
+}
+.col-2{
+    display: flex;
+    gap: 20px;
+}
